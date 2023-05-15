@@ -42,12 +42,12 @@
       // 로그인 정보 저장
       if (!storedPassword) {
         sessionStorage.setItem(username, password);
-        location.href = 'https://user1531.github.io/chat/';
+        location.href = 'https://limhyungwoo.github.io/newpage/';
       } else {
         // 저장된 정보와 비밀번호 확인
         if (password === storedPassword) {
           alert('로그인 성공!');
-          location.href = 'https://user1531.github.io/chat/';
+          location.href = 'https://limhyungwoo.github.io/newpage/';
         } else {
           alert('비밀번호가 일치하지 않습니다. 다시 입력해주세요.');
         }
